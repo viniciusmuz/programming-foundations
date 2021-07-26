@@ -1,0 +1,28 @@
+body {
+    font-family: sans-serif;
+    padding: 30px 150px 0px 150px;
+    background-color: #F9FAFB;
+}
+
+h1 {
+    color: navy;
+    text-align: center;
+}
+
+.table {
+    background-color: lightblue;
+    padding: 10px 10px 10px 10px;
+}
+
+th {
+    padding: 10px 20px 10px 0px;
+}
+
+td {
+    padding: 10px 20px 10px 0px;
+}
+
+#warning {
+    background-color: lightyellow;
+    padding: 25px 0px 25px 0px;
+}
