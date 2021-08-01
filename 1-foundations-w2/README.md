@@ -1,0 +1,3 @@
+# Programming Foundations with JavaScript, HTML and CSS - Week 2
+
+These are my answers to the second week's exercises of the Programming Foundations with JavaScript, HTML and CSS course. They use the SimpleImage and SimplePixel libraries which are not included here (for now?), so the code needs to be executed on the DLPT's JavaScript environment, here: https://www.dukelearntoprogram.com//course1/example/index.php
