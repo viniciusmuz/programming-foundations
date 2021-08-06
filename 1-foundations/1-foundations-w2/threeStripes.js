@@ -1,4 +1,4 @@
-const image = new SimpleImage("hilton.jpg");
+
 
 function threeStripes(image) {
     for (var pixel of image.values()) {
