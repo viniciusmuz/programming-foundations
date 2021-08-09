@@ -1,0 +1,29 @@
+body {
+    background-color: #ece6e6;
+    font-family: sans-serif;
+}
+
+.textboxes {
+    width: 300px;
+    text-align: center;
+    padding: 20px 10px 20px 10px;
+    margin: 10px 10px 10px 10px;
+}
+
+.redbg {
+    background: indianred;
+    color: white;
+}
+
+.yellowbg {
+    background: lightgoldenrodyellow;
+    color: black;
+}
+
+#div1 {
+    text-align: left;
+}
+
+#div2 {
+    text-align: right;
+}
