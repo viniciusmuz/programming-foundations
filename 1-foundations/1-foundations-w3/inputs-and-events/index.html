@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Practice</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="code.js"></script>
+</head>
+<body>
+<h1>Canvas Practice</h1>
+<canvas id="canvas">
+</canvas>
+<div>
+    <input type="button" value="Click to change the background" onclick="changeColor()">
+    <input id="colorPicker" type="color" value ="#FFFFFF" onchange="changeColorPicker()">
+</div>
+<div>
+    <p>Create a square</p>
+    <input id="slider" type="range" name="Square" min="0" max="250" value="0" step="25" onchange="createSquare()">
+</div>
+</body>
+</html>
