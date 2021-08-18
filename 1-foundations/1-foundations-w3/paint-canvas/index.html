@@ -8,8 +8,15 @@
 </head>
 <body>
 <h1>Paint your own canvas</h1>
-<canvas id="canvas1">
+<p>Set width: <input type="text" onchange="setWidth(this.value)" value="300">
+    Set height: <input type="text" onchange="setHeight(this.value)" value="300"></p>
+
+<canvas id="canvas1" onmousedown="startPaint()" onmousemove="doPaint(offsetX, offsetY)" onmouseup="endPaint()">
 
 </canvas>
+<p>Brush color: <input type="color" value="#0000" onchange="changeColor(this.value)">
+Brush size: <input id="sizeInput" min="1" max="50" value="50" type="range" oninput="resizeBrush(this.value)">
+<output id="sizeOutput">50</output></p>
+<p><input value="Clear Canvas" id="clear" type="button" onclick="clearCanvas()"></p>
 </body>
 </html>

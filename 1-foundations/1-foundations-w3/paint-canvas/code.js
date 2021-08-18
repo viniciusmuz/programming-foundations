@@ -5,8 +5,41 @@ var radius = 50;
 // only paint if mouse is being dragged (moved while the button is pressed)
 var isPainting = false;
 
-function setWidth (value) {
+function startPaint() {
+    this.isPainting = true;
+}
 
+function endPaint() {
+    this.isPainting = false;
+}
+
+function doPaint(x, y) {
+    if (this.isPainting == true) {
+        paintCircle(x, y);
+    }
+}
+
+function setWidth (value) {
+    if (isNumeric(value)) {
+        document.getElementById('canvas1').width = value;
+    }
+
+}
+
+function setHeight (value) {
+    if (isNumeric(value)) {
+        document.getElementById('canvas1').height = value;
+    }
+
+}
+
+function changeColor (newColor) {
+    this.color = newColor;
+}
+
+function resizeBrush (newSize) {
+    this.radius = newSize;
+    document.getElementById("sizeOutput").value = newSize;
 }
 
 function clearCanvas () {
