@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Filters</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="filter.js"></script>
+    <script src="SimpleImage.js"></script>
+</head>
+<body>
+<h1>Filters</h1>
+<canvas id="display">
+
+</canvas>
+<h2>Load image</h2>
+<input id="inputImage" type="file" accept="image/*" oninput="loadImage()">
+<h2>Select filters</h2>
+<p><input type="button" value="Grayscale" onclick="grayscale()"> </p>
+<p><input type="button" value="Reset" onclick="reset()"> </p>
+</body>
+</html>
